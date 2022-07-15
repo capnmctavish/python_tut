@@ -1,0 +1,20 @@
+#download git frm git url and install
+https://github.com/git-for-windows/git/releases/download/v2.37.1.windows.1/Git-2.37.1-32-bit.exe
+
+#generate ssh keys and store in git hub, REPLACE EMAIL WITH YOUR EMAIL
+
+ssh-keygen -t ed25519 -C "your_email@example.com" 
+copy contents of ed25519.pub to github>>settings>>ssh-keys>>add_new key
+
+# Intitalise a git repository
+git init 
+git remote add origin git@github.com:capnmctavish/python_tut.git
+
+git pull
+
+## TO submit code 
+git brnach developer/jay #USE YOUR NAME
+git checkout developer/jay #USE YOUR NAME
+git add .
+git commit -m "YOUR TASK NAME"
+git push
