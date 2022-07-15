@@ -4,6 +4,8 @@ https://github.com/git-for-windows/git/releases/download/v2.37.1.windows.1/Git-2
 #generate ssh keys and store in git hub, REPLACE EMAIL WITH YOUR EMAIL
 
 ssh-keygen -t ed25519 -C "your_email@example.com" 
+## Hit enter twice do not enter passphrase
+cat ed25519.pub
 copy contents of ed25519.pub to github>>settings>>ssh-keys>>add_new key
 
 # Intitalise a git repository
