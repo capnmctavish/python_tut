@@ -15,7 +15,7 @@ git remote add origin git@github.com:capnmctavish/python_tut.git
 git pull
 
 ## TO submit code 
-git brnach developer/jay #USE YOUR NAME
+git branch developer/jay #USE YOUR NAME
 git checkout developer/jay #USE YOUR NAME
 git add .
 git commit -m "YOUR TASK NAME"
