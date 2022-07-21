@@ -17,6 +17,7 @@ git pull
 ## TO submit code 
 git branch developer/jay #USE YOUR NAME
 git checkout developer/jay #USE YOUR NAME
+# Create assignment
 git add .
 git commit -m "YOUR TASK NAME"
 git push
